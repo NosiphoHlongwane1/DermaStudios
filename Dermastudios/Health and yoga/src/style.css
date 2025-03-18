@@ -1,0 +1,616 @@
+body {
+  background-image: url("../media/backgroundimage.jpg");
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+}
+
+.navbar {
+  font-family:  "Playfair Display", serif;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(209, 175, 175);
+  color:#fff !important;
+  padding: 8px
+}
+
+.navbar-nav {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.navbar-nav a:active {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.logo-border {
+  border: 2px solid transparent;
+  border-image: linear-gradient(-60deg, #FADADD 0%, #E6A4B4 100%);
+  border-image-slice: 1;
+  padding: 12px;
+  margin: 13px 0;
+  background-color: #E8C1B3;
+  transition: all ease-in-out 800ms;
+}
+.logo-border:hover {
+  cursor: pointer;
+  transform: scale(1.1) rotateZ(180deg);
+}
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  background: linear-gradient(-60deg, #FADADD 0%, #E6A4B4 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all ease-in-out 900ms;
+}
+.logo-border:hover > .logo {
+  transform: rotateZ(-360deg);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(21, 29, 24, 0.2), rgba(38, 182, 115, 0.3)),
+    url("../media/coverimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 200px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header h3 {
+  font-size: 50px;
+  font-weight: 300
+  letter-spacing 5px;
+  margin: 0;
+}
+
+header a {
+  font-size: 16px;
+  background-color: rgb(192, 163, 170);
+  color: #fff !important;
+  padding: 16px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-top: 32px;
+  display: inline-block;
+}
+
+header a:active {
+  color: #E6A4B4;
+}
+
+.section {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  background-color: rgb(192, 163, 170);
+}
+
+main h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+}
+
+main h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  margin-right: 60px;
+}
+
+main h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+
+.yoga-project,
+.pilates-project,
+.calisthenics-project {
+  box-shadow: var(--box-shadow);
+}
+
+img {
+  display: block;
+  margin: auto;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  max-width: 80;
+  height: auto;
+}
+
+.exercise-description {
+  text-align: left;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.exercise-description p {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.first-img-wrapper {
+  background-color: var(--first-bg-color);
+}
+
+.second-img-wrapper {
+  background-color: var(--second-bg-color);
+}
+
+
+.third-img-wrapper {
+  background-color: var(--third-bg-color);
+}
+
+.about-description {
+  text-align: left;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.about-description p {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.underline-bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+div img {
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+  background-image: url("../media/backgroundimage.jpg");
+}
+
+.section h5 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+.artist-text {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 40px;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  gap: 34px;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.secondary {
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(209, 175, 175);
+  padding: 60px 0 60px;
+}
+
+.secondary h2 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+
+.secondary h3 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.secondary p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.card {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-header img {
+  width: 100%;
+  height: 450px; 
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  display: block; 
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white !important;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  padding: 16px 32px;
+  background-color: rgb(192, 163, 170);
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+iframe {
+  width: 80%;
+  aspect-ratio: 1/1;
+  display: block;
+  margin: 30px auto;
+}
+
+.shop {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.shop h3 {
+  font-family: "Playfair Display", serif;
+  color: rgb(192, 163, 170);
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.shop h4 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: #fff;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card h5 {
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-card p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.product-card .btn {
+  background-color: rgb(192, 163, 170) !important;
+  color: white !important;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.product-card .btn:hover {
+  background-color: rgb(192, 163, 170);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.schedule-booking {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.class-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.class-card h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.class-card p {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.class-card .btn {
+  background-color: rgb(192, 163, 170);
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+
+.membership-form {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: #fff;
+  border-radius: 10px;
+}
+
+.membership-form h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.membership-form .form-label {
+  font-weight: bold;
+}
+
+.membership-form .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.timetable {
+  background-color: rgb(192, 163, 170);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+  color: white;
+}
+
+.timetable h2 {
+  color: rgb(192, 163, 170);
+}
+
+.timetable table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: white;
+}
+
+.timetable th,
+.timetable td {
+  padding: 12px;
+  text-align: center;
+  background-color: rgb(192, 163, 170);
+}
+
+.timetable th {
+  background-color: rgb(209, 175, 175);
+}
+
+.timetable tr:nth-child(even) {
+  background-color: #555;
+}
+
+.timetable tr:nth-child(odd) {
+  background-color: #444;
+}
+
+.upcoming-classes {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+  color: white;
+}
+
+.upcoming-classes h2 {
+  color: rgb(192, 163, 170);
+}
+
+.class-card {
+  background-color: rgb(209, 175, 175);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: rgb(209, 175, 175);
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.class-card h5 {
+  color: #333;
+}
+
+.class-card p {
+  color: #333;
+}
+
+.class-card .book-now {
+  background-color: rgb(192, 163, 170);
+  color: white;
+}
+
+.class-card .book-now:hover {
+  background-color: rgb(192, 163, 170);
+}
+
+.join {
+  background-color: #f1f3f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.join h2 {
+  color: rgb(192, 163, 170);
+}
+
+.join form {
+  color: rgb(192, 163, 170);
+}
+
+.join input,
+.join select {
+  background-color: rgb(192, 163, 170);
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.join button {
+  background-color: rgb(192, 163, 170) !important;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+.join button:hover {
+  background-color: white !important;
+  color: rgb(192, 163, 170) !important;
+}
+
+#join-success h3 {
+  color: white;
+}
+
+footer {
+  background-color: rgb(209, 175, 175); 
+  color: #fff; 
+  text-align: center; 
+  padding: 16px 0;
+  font-family: "Playfair Display", serif;
+  font-size: 14px; 
+}
+
+footer p {
+  margin: 0; 
+  color: #fff; 
+  text-align: center; 
+  padding: 16px 0;
+  font-family: "Playfair Display", serif;
+  font-size: 14px; 
+}
+
+@media (max-width: 768px) {
+  section {
+      padding: 30px 15px;
+  }
+}
